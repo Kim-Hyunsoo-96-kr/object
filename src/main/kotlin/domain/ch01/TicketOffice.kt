@@ -1,4 +1,4 @@
-package org.example.domain
+package org.example.domain.ch01
 
 class TicketOffice(
     private var amount: Long,
@@ -18,7 +18,7 @@ class TicketOffice(
         this.amount += amount
     }
 
-    fun sellTicketTo(audience:Audience) {
+    fun sellTicketTo(audience: Audience) {
         plusAmount(audience.buy(getTicket()))
     }
 }

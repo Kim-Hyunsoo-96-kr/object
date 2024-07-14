@@ -1,4 +1,4 @@
-package org.example.domain
+package org.example.domain.ch01
 
 class TicketSeller(
     private val ticketOffice: TicketOffice
