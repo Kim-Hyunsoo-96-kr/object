@@ -1,4 +1,5 @@
 package org.example.domain.ch02
 
-class DiscountCondition {
+interface DiscountCondition {
+    fun isSatisfiedBy(screening: Screening): Boolean
 }

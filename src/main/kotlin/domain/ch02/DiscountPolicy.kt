@@ -1,4 +1,5 @@
 package org.example.domain.ch02
 
-class DiscountPolicy {
+interface DiscountPolicy {
+    fun calculateDiscountAmount(screening: Screening): Money
 }

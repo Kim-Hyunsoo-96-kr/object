@@ -8,7 +8,7 @@ class Screening(
     val whenScreend: LocalDateTime
 ) {
     fun isSequence(sequence: Int) = this.sequence == sequence
-    fun getMovieFee(): {
+    fun getMovieFee(): Money {
         return movie.fee
     }
 
